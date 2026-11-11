@@ -7,3 +7,13 @@ node_modules/
 __pycache__/
 .claude/
 .cc-workbench/
+
+# 运行时数据与构建产物
+backend/data/
+backend/logs/
+*.db
+*.db-wal
+*.db-shm
+frontend/dist/
+*.tsbuildinfo
+*.pid
